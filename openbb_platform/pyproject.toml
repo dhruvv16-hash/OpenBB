@@ -53,6 +53,7 @@ openbb-cboe = { version = "^1.6.1", optional = true }
 openbb-deribit = { version = "^1.2.1", optional = true }
 openbb-ecb = { version = "^1.6.1", optional = true }
 openbb-famafrench = { version = "^1.2.1", optional = true }
+openbb-financialdata = { version = "^1.6.1", optional = true }
 openbb-finra = { version = "^1.6.1", optional = true }
 openbb-finviz = { version = "^1.5.1", optional = true }
 openbb-multpl = { version = "^1.3.1", optional = true }
@@ -78,6 +79,7 @@ deribit = ["openbb-deribit"]
 ecb = ["openbb-ecb"]
 econometrics = ["openbb-econometrics"]
 famafrench = ["openbb-famafrench"]
+financialdata = ["openbb-financialdata"]
 finra = ["openbb-finra"]
 finviz = ["openbb-finviz"]
 mcp_server = ["openbb-mcp-server"]
@@ -101,6 +103,7 @@ all = [
     "openbb-ecb",
     "openbb-econometrics",
     "openbb-famafrench",
+    "openbb-financialdata",
     "openbb-finra",
     "openbb-finviz",
     "openbb-mcp-server",
